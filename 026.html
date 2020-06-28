@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>my web site</title>
+		<style type="text/css">
+			#username{
+				border:0 none;
+				outline-style:none;
+				background:#ccc;
+				border:1px dashed green;
+			}
+			#username:focus{
+				background:red;
+			}
+			.email{
+				border:0 none;
+				outline-style:none;
+				border-bottom:1px dotted red;
+			}
+			.search{
+				border:0 none;
+				outline-style:none;
+				border: 1px solid #999;
+				background: url("021/search.png") no-repeat right;
+			}
+		</style>
+	</head>
+	<body>
+		<label for="username">用户名：</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="username"><br>
+		邮箱：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="email"><br>
+		搜索一下：<input type="text" class="search">
+	</body>
+</html>
